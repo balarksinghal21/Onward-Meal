@@ -18,7 +18,7 @@ html{
     align-items: center;
     top: 0px;
     position: sticky;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 #navbar::before{
     content: "";
@@ -39,6 +39,7 @@ html{
 #logo img{
     height: 87px;
     margin: 10px 10px;
+    width: 110px;
 }
 
 /* Navigation Bar: List Styling */
@@ -48,7 +49,7 @@ html{
     font-family: 'Baloo Bhai' , cursive;
 }
 #navbar ul li{
-    color: white;
+    /* color: white; */
     list-style: none;
     font-size: 1rem;
 } 
@@ -75,14 +76,14 @@ html{
 } 
 #home::before{
     content: "";
-    background: url('bg1.jpg') no-repeat center center/cover;
+    background: url('../bg1.jpg') no-repeat center center/cover;
     top: 0px;
     left: 0px;
     position: absolute;
     height: 648px;
     width: 100%;
     z-index: -1;
-    opacity: 1;
+    opacity: 0.89;
     /* position: sticky; */
 }
 #home h1{ 
@@ -133,7 +134,7 @@ html{
 #client-section::before{
     content: "";
     position: absolute;
-    background: url('bg2.jpg') no-repeat center center/cover;
+    background: url('../bg2.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -152,15 +153,15 @@ html{
 
 #clients img{
      display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
-    z-index: -1;
+    z-index: -1; 
     height: 84px;
 }
 /* Contact Section */
 #contact{
     position: relative;
-    z-index: -1; 
+    /* z-index: -1;  */
 }
 
 #contact::before{
@@ -170,7 +171,7 @@ html{
     height: 100%;
     z-index: -1;
     opacity: 0.7;
-    background: url('contact.jpeg') no-repeat center center/cover;
+    background: url('../contact.jpeg') no-repeat center center/cover;
 }
 
 #contact-box{
@@ -206,7 +207,7 @@ footer{
 /* Utility Class */
 .h-primary{
     font-family: 'Bree Serif', serif;
-    text-align: center;
+    /* text-align: center; */
     font-size: 3.7rem;
     padding: 30px;
 
