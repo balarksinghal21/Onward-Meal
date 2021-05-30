@@ -160,7 +160,7 @@ html{
 }
 /* Contact Section */
 #contact{
-    position: static;
+    position: relative;
     /* z-index: -1;  */
 }
 
