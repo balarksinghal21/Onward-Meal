@@ -207,7 +207,7 @@ footer{
 /* Utility Class */
 .h-primary{
     font-family: 'Bree Serif', serif;
-    /* text-align: center; */
+    text-align: center;
     font-size: 3.7rem;
     padding: 30px;
 
